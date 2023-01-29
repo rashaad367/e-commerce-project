@@ -1,0 +1,24 @@
+Library name: JQuery
+Version: 3.1.1
+License: MIT License
+License Link: https://github.com/jquery/jquery/blob/main/LICENSE.txt
+
+Plugin name: jquery.complexify.js
+Version: 0.5.2
+License: WTFPL v2 License
+License Link: https://github.com/danpalmer/jquery.complexify.js/
+
+Plugin name: jquery-ui
+Version: 3.6.1
+License: MIT License and the GNU General Public License, version 2
+License Link: https://github.com/jquery/jquery-ui/blob/main/LICENSE.txt
+
+Plugin name: jquery-bxslider
+Version: 4.2.12
+License: MIT License
+License Link: https://github.com/stevenwanderski/bxslider-4/blob/master/LICENSE.md
+
+Library name: Google AJAX 
+Version: 3.1.1
+License:  Creative Commons Attribution 4.0 License and Apache 2.0 License
+License Link: https://developers.google.com/speed/libraries
