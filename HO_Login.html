@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>H. Originales | Login</title>
+    <!--Header-->
+    <div>
+        <ul id="navBar">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="HO_Login.html">Login</a></li>
+            <li><a href="HO_DonationPoints.html">Donation Points</a></li>
+            <li><a href="HO_TermsAndConditions.html">Terms&Conditions</a></li>
+            <li><a href="HO_Support.html">Support</a></li>
+            <li><a href="HO_Menu.html">Menu</a></li>
+            <li><a href="">Search</a></li>
+            <li><a href="HO_Cart.html">Shopping Cart</a></li>
+        </ul>
+    </div>
+    <div class="headerSpace">
+        <h1>Login</h1><img src="images/girlafro.png" alt="girl afro" id="girlafro">
+    </div>
+
+    <!--jQuery and Essentials-->
+    <link rel="stylesheet" href="HO_Login.css">
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="HO_Login.js"></script>
+
+    <!--bxSlider plugin-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+    <!--password complexity(strength) plugin-->
+    <script src="plugins/jquery.complexify.js"></script>
+
+    <!--jQuery UI-->
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+    <script src="plugins/jquery-ui.js"></script>
+</head>
+
+<body>
+    <div id="container1">
+        <div id="box3">
+            <form action="register.html" method="get" name="login-form" class="login-form">
+                <div>
+                    <label for="acct-email-text" class="acct-email">Email: </label>
+                    <input type="email" placeholder="Enter your email address" class="acct-email" id="acct-email-text">
+                </div>
+                <div>
+                    <label for="acct-password-text" class="acct-password">Password: </label>
+                    <input type="password" placeholder="Enter you password" class="acct-password"
+                        id="acct-password-text" minlength="8">
+                </div>
+                <div>
+                    <div id="progressbar"></div><span id="per">0</span><span id="per-symbol">%</span>
+                    <div><span id="pass_strength">Password Strength</span></div>
+                </div>
+                <div>
+                    <input type="submit" value="Login" id="login-btn" title="login-status">
+                </div>
+                <div class="login-status">
+                    <!-- ajax that shows whether login was successful or not -->
+                </div>
+            </form>
+            <div id="acct-display">
+                <span>Account Picture</span>
+                <img src="images/default_acct_img.jpg" alt="Account Image" class="acct-picture">
+            </div>
+            <div class="acct-benefits-list">
+                <h3>Account Benefits</h3>
+                <ul id="slider"> <!--bxSlider or Cycle2 for account benefits-->
+                    <li><img src="images/donationpoints.png" alt="Donation Points"></li>
+                    <li><img src="images/specialdeals.png" alt="Special Deals"></li>
+                </ul>
+            </div>
+            <div class="acct-options-images">
+                <ul>
+                    <li><a href=""><img src="images/dp.png" alt="Donation Points"></a></li>
+                    <!--Donation Points (rectangle)-->
+                    <li><a href=""><img src="images/forgotpass.png" alt="Forgot U/P?"></a></li>
+                    <!--Forgot Username/Password? (rectangle)-->
+                    <li><a href=""><img src="images/accounthelp.png" alt="Account Help"></a></li>
+                    <!-- Account Help (rectangle)-->
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+
+<footer>
+    <!--Footer-->
+    <!--Ref: https://www.youtube.com/watch?v=5WoQm7tR6EA-->
+    <div class="footer-container">
+        <div class="footer">
+            <div class="footer-heading footer-1">
+                <h3>Shop</h3>
+                <a href="">Mens</a>
+                <a href="">Womens</a>
+                <a href="">Kids</a>
+                <a href="">Accessories</a>
+            </div>
+            <div class="footer-heading footer-2">
+                <h3>Contact Us</h3>
+                <a href="">Jobs</a>
+                <a href="HO_Support.html">Support</a>
+                <a href="HO_Contact.html">Contact</a>
+                <a href="">Sponsorships</a>
+            </div>
+            <div class="footer-heading footer-3">
+                <h3>Social Media</h3>
+                <a href="">Instagram</a>
+                <a href="">Facebook</a>
+                <a href="">Youtube</a>
+                <a href="">Twitter</a>
+            </div>
+            <div class="footer-email-form">
+                <h3>Join our newsletter</h3>
+                <input type="email" placeholder="Enter your email address" id="footer-email">
+                <input type="submit" value="Sign Up" id="footer-email-btn">
+            </div>
+        </div>
+    </div>
+</footer>
+
+</html>
